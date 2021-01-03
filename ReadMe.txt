@@ -1,10 +1,10 @@
-Τα προγράμματα εκτελούνται με την εξής σειρά
+The project is made up by 3 projects. The order of running them is the follow: 
 
 1. TwitterGetTweets
 2. MongoDBSaves
 3. AnalisisArrays
 
 
-Το TwitterGetTweets περιλαμβάνει τη διαδικασία συλλογής και αποθήκευσης των tweets σε MongoDB Database.
-To ΜongoDBSaves περιλαμβάνει τη διαδικασία ξεχωρισμού @,#,RT,http και την επαναποθήκευσή τους σε MongoDB Database.
-Το AnalisisArrays περιλαμβάνει τη διαδικασία δημιουργίας των 5 πινάκων ομοιοτήτων μεταξύ των χρηστών και την παραγωγ΄αντίστοιχων 5 αρχείων με αυτούς μέσα.
+TwitterGetTweets collect and save tweets into a MongoDB Database. / Ξ¤ΞΏ TwitterGetTweets Ο€ΞµΟΞΉΞ»Ξ±ΞΌΞ²Ξ¬Ξ½ΞµΞΉ Ο„Ξ· Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΞ±ΟƒΞ―Ξ± ΟƒΟ…Ξ»Ξ»ΞΏΞ³Ξ®Ο‚ ΞΊΞ±ΞΉ Ξ±Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ·Ο‚ Ο„Ο‰Ξ½ tweets ΟƒΞµ MongoDB Database.
+MongoDBSaves separates the tweets based on their kind such as @,#,RT,http and saves them into a MongoDB Database. / To ΞongoDBSaves Ο€ΞµΟΞΉΞ»Ξ±ΞΌΞ²Ξ¬Ξ½ΞµΞΉ Ο„Ξ· Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΞ±ΟƒΞ―Ξ± ΞΎΞµΟ‡Ο‰ΟΞΉΟƒΞΌΞΏΟ @,#,RT,http ΞΊΞ±ΞΉ Ο„Ξ·Ξ½ ΞµΟ€Ξ±Ξ½Ξ±Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ® Ο„ΞΏΟ…Ο‚ ΟƒΞµ MongoDB Database.
+AnalisisArrays creates 5 arrays of similarities between the users and produces 5 files for each one of them with the users who are similar to each other in them. / Ξ¤ΞΏ AnalisisArrays Ο€ΞµΟΞΉΞ»Ξ±ΞΌΞ²Ξ¬Ξ½ΞµΞΉ Ο„Ξ· Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΞ±ΟƒΞ―Ξ± Ξ΄Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ±Ο‚ Ο„Ο‰Ξ½ 5 Ο€ΞΉΞ½Ξ¬ΞΊΟ‰Ξ½ ΞΏΞΌΞΏΞΉΞΏΟ„Ξ®Ο„Ο‰Ξ½ ΞΌΞµΟ„Ξ±ΞΎΟ Ο„Ο‰Ξ½ Ο‡ΟΞ·ΟƒΟ„ΟΞ½ ΞΊΞ±ΞΉ Ο„Ξ·Ξ½ Ο€Ξ±ΟΞ±Ξ³Ο‰Ξ³Ξ„Ξ±Ξ½Ο„Ξ―ΟƒΟ„ΞΏΞΉΟ‡Ο‰Ξ½ 5 Ξ±ΟΟ‡ΞµΞ―Ο‰Ξ½ ΞΌΞµ Ξ±Ο…Ο„ΞΏΟΟ‚ ΞΌΞ­ΟƒΞ±.
